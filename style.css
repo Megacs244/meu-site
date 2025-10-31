@@ -1,0 +1,118 @@
+/* Estilos gerais */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://fronteirasnotempo.com/wp-content/uploads/2021/08/fronteirasnotempo_58_Vitrine.png") center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Imagem principal */
+.hero {
+    text-align: center;
+    margin: 20px;
+}
+
+.hero img {
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+/* Conteúdo */
+main {
+    padding: 20px 10%;
+}
+
+.content {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.content h2 {
+    color: #006400;
+    border-left: 6px solid #00a651;
+    padding-left: 10px;
+}
+
+ul {
+    line-height: 1.8em;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 250px;
+    background: #e9f7ef;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #007c41;
+}
+
+/* Linha do tempo */
+.timeline table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.timeline th {
+    background: #007c41;
+    color: white;
+    padding: 10px;
+}
+
+.timeline td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Citação (hino) */
+blockquote {
+    font-style: italic;
+    color: #444;
+    background: #f1f8f3;
+    padding: 15px;
+    border-left: 6px solid #00a651;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    background: #007c41;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-weight: 500;
+}
